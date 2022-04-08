@@ -1,0 +1,172 @@
+*, html, body{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	padding: 100px 200px;
+	box-sizing: border-box;
+}
+.layer {
+	width: 100%;
+	height: 100%;
+}
+.description {
+	width: 30%;
+}
+.description h1 {
+	text-align: center;
+	margin: auto;
+	font-family: Calibri;
+	text-transform: uppercase;
+}
+.lay1 {
+	width: 70%;
+	height: 600px;
+	background-image: url('../images/liquid-cheese.jpg');
+}
+.lay1 .navbar {
+	width: 100%;
+	height: 60px;
+	padding: 35px 130px;
+	box-sizing: border-box;
+}
+.lay1 .navbar .logo {
+	color: #262626;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	font-family: Calibri;
+	width: 20%;
+	cursor: pointer;
+}
+.lay1 .navbar .logo i {
+	color: #1286d8;
+}
+.lay1 .navbar ul {
+	display: block;
+	width: 80%;
+	list-style-type: none;
+	text-align: right;
+}
+.lay1 .navbar ul li {
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+}
+.lay1 .navbar ul li a {
+	text-decoration: none;
+	color: #262626;
+	font-size: 1.4em;
+	font-family: Calibri;
+	transition: color 0.4s;
+}
+.lay1 .navbar ul li a:hover {
+	color: #1286d8;
+}
+.lay1 .section {
+	width: 100%;
+	height: 100%;
+	padding-top: 80px;
+}
+.lay1 .section .col-50 {
+	width: 50%;
+	height: 100%;
+}
+.lay1 .section .col-50 img {
+	width: 80%;
+}
+.lay1 .section .col-50 h2 {
+	font-family: Calibri;
+	color: #4e4e4e;
+	font-size: 1.1em;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	transform: translateX(130px);
+}
+.lay1 .section .col-50 h1 {
+	font-family: Calibri;
+	color: #262626;
+	font-size: 6em;
+	transform: translateX(130px);
+	font-style: italic;
+	line-height: 0.9em;
+}
+/* DESIGN TWO ======================================================== */
+
+.layer .lay2 {
+	width: 70%;
+	height: 650px;
+	background-image: url(../images/leaves.jpg);
+	padding: 100px 150px;
+	box-sizing: border-box;
+}
+.layer .lay2 .glass {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	backdrop-filter:  blur(3px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	padding: 50px 80px;
+	box-sizing: border-box;
+}
+.layer .lay2 .glass .col-50 {
+	width: 50%;
+	height: 100%;
+}
+.layer .lay2 .glass .col-50 img {
+	width: 110%;
+	margin-top: 50px;
+}
+.layer .lay2 .glass .col-50 h1 {
+	font-family: "Impact";
+	font-size: 4.5em;
+	color: #fff;
+	line-height: 1.1em;
+}
+.layer .lay2 .glass .col-50 p {
+	color: #fff;
+	font-family: Calibri;
+	letter-spacing: 3px;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+.layer .lay2 .glass .col-50 button {
+	width: 200px;
+	height: 40px;
+	margin-top: 20px;
+	color: #262626;
+	font-weight: bold;
+	background-color: #fff;
+	border-radius: 999px;
+	text-align: center;
+	letter-spacing: 2px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+.layer .lay2 .glass .col-50 button:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #fff;
+}
+
+/* LANDING PAGE 3 =============================================================== */
+.lay3 {
+	width: 70%;
+	height: 600px;
+	background-image: url('../images/landing-page-3.jpg');
+	background-size: 100% 100%;
+	border: 2px solid #1f3c10;
+	box-sizing: border-box;
+}
